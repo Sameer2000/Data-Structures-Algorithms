@@ -23,7 +23,7 @@ public class UnionAndIntersectionOfTwoSortedArrays {
 	// Time complexity -> O(m+n)
 	public static void union(int arr1[], int arr2[]) {
 		int m = arr1.length, n = arr2.length;
-		int i = 0, j = 0, k = 0;
+		int i = 0, j = 0;
 		while(i < m && j < n) {
 			if(arr1[i] < arr2[j]) {
 				System.out.print(arr1[i]+" ");
