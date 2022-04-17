@@ -1,4 +1,4 @@
-// Find the Union and Intersection of the two sorted arrays.
+/* Find the Union and Intersection of the two sorted arrays. */
 
 package Array;
 
