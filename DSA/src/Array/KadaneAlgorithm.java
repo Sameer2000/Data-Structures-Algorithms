@@ -5,7 +5,7 @@ package Array;
 public class KadaneAlgorithm {
 	
 	public static long kadaneAlgorithm(int arr[], int n) {
-		int max = Integer.MIN_VALUE;
+		int max = 0;
 		int subSum = 0;
 		for(int i = 0; i < n; i++) {
 			subSum += arr[i];
